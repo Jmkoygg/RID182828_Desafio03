@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Board<br>de tarefas</h1>
+            <h3>desafio responsividade</h3>
+        </div>
+        <img width="10%" src="dnc.svg" alt="Logo dnc">
+    </header>
+    <main>
+        <div class="container">
+            <div class="board">
+                <h1>Board de tarefas</h1>
+                <form id="task-form" action="">
+                    <div class="input-container">
+                        <input type="text" placeholder="Nome da tarefa" class="input-task" id="task-name">
+                        <input type="text" placeholder="Etiqueta" class="input-task" id="task-tag">
+                        <button class="add-button" type="submit" onclick="newtask()">+</button>
+                    </div>
+                </form>
+                <ul class="task-list">
+                    <li class="task">
+                        <div class="task-info">
+                        <p class="task-title">Fazer a lista de tarefas</p>
+                            <div class="task-tags">
+                            <span class="label">DNC</span>
+                            <span class="date">Criado em: 8/10/2024</span>
+                            </div>
+                        </div>
+                        <button class="complete-button" onclick="completeTask(this)">Concluir</button>
+                    </li>
+                    <li class="task">
+                        <div class="task-info">
+                        <p class="task-title">Terminar o Curso</p>
+                            <div class="task-tags">
+                            <span class="label">DNC</span>
+                            <span class="date">Criado em: 8/10/2024</span>
+                            </div>
+                        </div>
+                        <button class="complete-button" onclick="completeTask(this)">Concluir</button>
+                    </li>
+                </ul>
+                <p class="completed-info">0 tarefas concluídas</p>
+            </div>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+
+</html>
