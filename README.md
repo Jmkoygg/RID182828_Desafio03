@@ -18,18 +18,9 @@ Um aplicativo web para organizar tarefas, desenvolvido com HTML, CSS e JavaScrip
 
 ## 🚀 Como Usar  
 
-1. **Clone este repositório**:  
-   ```bash  
-   git clone https://github.com/Jmkoygg/Task-list.git  
-   ```  
+Acesse esse link:https://jmkoygg.github.io/Task-list/
 
-2. **Navegue até o diretório do projeto**:  
-   ```bash  
-   cd Task-list  
-   ```  
-
-3. **Abra o arquivo `index.html` no navegador**:  
-   Você pode usar uma extensão como [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VS Code para visualizar o projeto em tempo real.  
+ou se preferir clone o repositório: git clone https://github.com/Jmkoygg/Task-list.git  
 
 ## 🎯 Melhorias Futuras  
 
